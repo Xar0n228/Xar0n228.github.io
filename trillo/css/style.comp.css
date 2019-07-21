@@ -9,8 +9,8 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
+  --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+  --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
   --line: 1px solid var(--color-grey-light-2); }
 
 * {
@@ -137,10 +137,10 @@ body {
     background-color: var(--color-grey-light-2);
     border: none;
     padding: .7rem 2rem;
+    margin-right: -3.25rem;
     border-radius: 100px;
     width: 90%;
-    transition: all .2s;
-    margin-right: -3.25rem; }
+    transition: all .2s; }
     .search__input:focus {
       outline: none;
       width: 100%;
