@@ -1,0 +1,18 @@
+@import "normalize";
+
+@import "variables";
+@import "mixins";
+
+@import "global/global";
+@import "global/a11y";
+@import "global/fonts";
+@import "global/forms";
+@import "global/layout";
+
+@import "blocks/header";
+@import "blocks/intro";
+@import "blocks/promo";
+@import "blocks/benefits";
+@import "blocks/reviews";
+@import "blocks/contacts";
+@import "blocks/footer";

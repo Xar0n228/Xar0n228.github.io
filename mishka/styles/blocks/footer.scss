@@ -1,0 +1,43 @@
+@import "../variables";
+
+.page-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  background-color: #f1f1f1;
+}
+
+.page-footer__social-links {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+  list-style-type: none;
+}
+
+.page-footer__social-link {
+  cursor: pointer;
+  padding: 0 20px;
+}
+
+.page-footer__copyright {
+  display: flex;
+  align-items: center;
+  color: $color-text-bright;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px 0 30px;
+
+  &::after {
+    margin-left: 10px;
+    content: '';
+    display: inline-block;
+    width: 27px;
+    height: 34px;
+    background-image: url('/img/htmlacademy.png');
+    background-repeat: no-repeat;
+  }
+}

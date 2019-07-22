@@ -1,0 +1,41 @@
+@import "./variables";
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $color-text;
+  background-color: white;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 50px;
+
+  text-align: center;
+  text-decoration: none;
+  color: $color-text;
+
+  background-color: transparent;
+  outline: none;
+  border: 2px solid $color-text;
+
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.divider {
+  height: 7px;
+  margin: 38px 0;
+  padding: 0;
+  background-image: url('/img/divider.png');
+  border: none;
+  outline: none;
+}

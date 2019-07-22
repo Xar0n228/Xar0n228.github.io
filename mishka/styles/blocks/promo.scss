@@ -1,0 +1,66 @@
+@import "../variables";
+
+.promo {
+  padding: 0 $horizontal-page-padding-mobile;
+}
+
+.promo__title {
+  margin-top: 33px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: $color-text-bright;
+}
+
+.promo__content {
+  text-align: left;
+}
+
+.promo__item-of-the-week {
+  font-size: 17px;
+  font-weight: bold;
+  color: $color-accent;
+  text-transform: uppercase;
+}
+
+.promo__description {
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.promo__features {
+  width: 100%;
+}
+
+.promo-feature__title,
+.promo-feature__value {
+  padding: 10px 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.promo-feature__title {
+  padding-right: 30px;
+  font-weight: normal;
+  text-align: left;
+}
+
+.promo__img-wrap {
+  text-align: center;
+}
+
+.promo__img {
+  margin-top: 30px;
+  max-width: 260px;
+  width: 100%;
+  height: auto;
+}
+
+.promo__price {
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.promo__order-btn {
+  margin-top: 30px;
+}

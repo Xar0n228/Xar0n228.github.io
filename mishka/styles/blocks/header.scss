@@ -1,0 +1,46 @@
+@import "../variables";
+
+$icon-menu-toggle-height: 14px;
+$icon-menu-toggle-width: 20px;
+
+.page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: $page-header-height;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__logo {
+  text-align: center;
+}
+
+.page-header__nav {
+  position: absolute;
+  top: 80px;
+  width: 100%;
+}
+
+.main-nav {
+  &--closed {
+    .main-nav__wrapper {
+      display: none;
+    }
+  }
+}
+
+.main-nav__toggle {
+  position: absolute;
+  top: -($page-header-height + $icon-menu-toggle-height) / 2;
+  right: $horizontal-page-padding-mobile;
+
+  background: transparent;
+  border: none;
+  outline: none;
+  background-image: url('/img/icon-menu.png');
+  background-size: cover;
+  height: $icon-menu-toggle-height;
+  width: $icon-menu-toggle-width;
+}
